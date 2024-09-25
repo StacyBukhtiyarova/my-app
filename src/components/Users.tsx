@@ -66,7 +66,7 @@ const Users: React.FC = () => {
 
   return (
     <div className="container">
-      <div className='header'>
+      <div className="header">
         <h1>Users</h1>
         <button type="button" onClick={addNewUser} className="add-new-button">
           Add New
