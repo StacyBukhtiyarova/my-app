@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  width: 69px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.text-field {
+  margin: 6px 16px 6px;
+  height: 25px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  border: 0.5px solid #cccccc;
+  width: 100%;
+}
+
+button {
+  font-family: Inter;
+  width: 35vw;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  background-color: #fff;
+  border: none;
+}
+
+.add-new-button {
+  margin: 0 0 26px auto;
+  width: 10vw;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  color: #00b93f;
+  border-bottom: 1px solid #00b93f;
+}
+
+.add-after-button {
+  color: #0500ff;
+}
+
+.delete-button {
+  color: #ff0000;
+}
+
+.save-changes-button {
+  margin-top: 16px;
+  height: 25px;
+  width: 20vw;
+  color: #fff;
+  background-color: #0c9a00;
+  border-radius: 10px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid #cccccc;
+  width: 100%; /* растягивает контейнер формы на всю ширину родителя */
+}
+
+/*# sourceMappingURL=index.css.map */
